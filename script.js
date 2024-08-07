@@ -60,3 +60,4 @@ const fonts = ['Arial', 'Verdana', 'Times New Roman', 'Courier New', 'Georgia', 
           textcontainer.style.fontFamily=font;
         }
         fontSelector.style.border='10px solid black';
+        fontSelector.style.borderRadius='10px'
