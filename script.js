@@ -60,4 +60,16 @@ const fonts = ['Arial', 'Verdana', 'Times New Roman', 'Courier New', 'Georgia', 
           textcontainer.style.fontFamily=font;
         }
         fontSelector.style.border='10px solid black';
-        fontSelector.style.borderRadius='10px'
+        fontSelector.style.borderRadius='10px';
+        const btn1=document.getElementById('btn1');
+        
+        btn1.addEventListener('click', myfun);
+
+        function myfun(){
+          html2canvas(document.getElementById('textcontainer')).then(canvas=>{
+              const link=document.createElement('a');
+              link.href=canvas.toDataURL('image/png');
+              link.download='image.png';
+              link.click();
+          });
+        }

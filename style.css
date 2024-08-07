@@ -24,9 +24,9 @@ h1{
     height: 480px;
     border: 10px solid rgb(7, 1, 10);
     background-color: #C9D6DF;
-    border-radius: 20px;
+    border-radius: 10px;
     font-size: 30px;
-    padding: 12px;
+    padding: 0px;
 }
 
 .subcontainer1{
@@ -83,4 +83,16 @@ h1{
 #fontSelctor{
     border-radius: 50px;
     border: 5px solid #F0F5F9;
+}
+#btn1{
+    background-color: #C9D6DF;
+    color: black;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
+#btn1:hover{
+    background-color: black;
+    color: #C9D6DF;
+    transition: 1s ease-in-out;
 }
