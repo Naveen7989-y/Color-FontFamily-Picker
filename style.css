@@ -1,0 +1,86 @@
+body{
+    background-color: #F0F5F9;
+}
+h1{
+    color: #1E2022;
+}
+#container{
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+    border: 0px solid black;
+    justify-items: center;  
+    padding: 15px;
+    margin: 0px;
+    height: auto;
+    background-color: #F0F5F9;
+}
+
+h1{
+    margin: 4px;
+}
+#textcontainer{
+     position: relative;
+    width: 350px;
+    height: 480px;
+    border: 10px solid rgb(7, 1, 10);
+    background-color: #C9D6DF;
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 12px;
+}
+
+.subcontainer1{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    border: 0px solid black;
+    width: 98%;
+    margin: -10px;
+
+}
+.pickcontainer{
+    
+    margin: 2px;
+}
+#colorContainer {
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 20px;
+    
+}
+.color-box {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+#colorContainer2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left:20px;
+    
+}
+.color-box2 {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+#inputBox {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+}
+#fontSelctor{
+    border-radius: 50px;
+    border: 5px solid #F0F5F9;
+}
